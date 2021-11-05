@@ -15,5 +15,11 @@ public class TestClass {
 		public int getValue() {
 			return value;
 		}
+		
+		public int getValPlus3() {
+			return value+3;
+		}
+		
+		
 
 }

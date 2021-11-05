@@ -22,17 +22,17 @@ public class Unit6_1ArrayCreationAndAccess {
 		//if String or other class initialized to null	
 		
 		int [] listOfInts = new int[5];
-		System.out.println(listOfInts.length);
+		//System.out.println(listOfInts.length);
 		
 		//put something in the array
 		listOfInts[2]=33;
 		listOfInts[3]=listOfInts[2]*3;
 		
-		System.out.println(listOfInts[2]+" "+listOfInts[3]);
+		System.out.println(listOfInts[1]+" "+listOfInts[3]);
 		
 		//out of bounds
 		
-		//listOfInts[5]=22;
+		listOfInts[4]=22;
 		
 		
 		//Printing out the list
@@ -52,10 +52,10 @@ public class Unit6_1ArrayCreationAndAccess {
 		//Array of objects
 		
 		//Crate Array
-		TestClass [] listOfObj;
+		TestClass [] listOfObj = new TestClass[3];
 		
 		//Create space in memory (All null)
-		listOfObj = new TestClass[3];
+		
 		
 		//Create Object in specific index in array
 		
@@ -63,17 +63,18 @@ public class Unit6_1ArrayCreationAndAccess {
 		
 		//we can now use methods on the array object
 		
-		System.out.println(listOfObj[1].getValue());
+		//System.out.println(listOfObj[1].getValue());
 		
-		listOfObj[0] = new TestClass(listOfObj[1].getValue()-4);
+		listOfObj[0] = new TestClass(listOfObj[1].getValPlus3());
 		
-		System.out.println(listOfObj[0].getValue());
+		//System.out.println(listOfObj[0].getValue());
 		
 		
 		//If you know the values beforehand you can initialize with info
 		
-//		double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3};
-//		
+			double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
+			randomNumbers[1]=67.3;
+		
 //		int x = 0;
 //		while (x<randomNumbers.length) {
 //			System.out.println(randomNumbers[x]);
@@ -82,16 +83,17 @@ public class Unit6_1ArrayCreationAndAccess {
 
 		
 		
-//		String [] stuff = {"Appels", "Hats", "Hair", "More Things"};
+		String [] stuff = {"Appels","Hats","Hair","More Things","Bob","John"};
 		
-//		int y = 0;
-//		while (y<stuff.length) {
-//			System.out.println(stuff[y]);
-//			x++;
-//		}
+		int y = 0;
+		while (y<stuff.length) {
+			System.out.println(stuff[y]);
+			y++;
+		}
+//	
 	
-	
-	
+		
+		
 	
 	}
 	
