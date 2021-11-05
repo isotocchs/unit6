@@ -6,7 +6,11 @@ public class Unit6Main {
 		// TODO Auto-generated method stub
 		
 		Unit6_1ArrayCreationAndAccess arrayTests = new Unit6_1ArrayCreationAndAccess();
-		arrayTests.arrayTesting();
+		//arrayTests.arrayTesting();
+		
+		Unit6_2ArrayTraversal arrayTraversal = new Unit6_2ArrayTraversal();
+		//arrayTraversal.arrayTrav();
+		//arrayTraversal.arrayQuestions();
 	}
 
 }
