@@ -21,14 +21,14 @@ public class Unit6_1ArrayCreationAndAccess {
 		//if boolean initialized to false
 		//if String or other class initialized to null	
 		
-		int [] listOfInts = new int[5];
+		int [] listOfInts  = new int[5];
 		//System.out.println(listOfInts.length);
 		
 		//put something in the array
 		listOfInts[2]=33;
-		listOfInts[3]=listOfInts[2]*3;
+		listOfInts[listOfInts.length-1]=listOfInts[2]*3;
 		
-		System.out.println(listOfInts[1]+" "+listOfInts[3]);
+		//System.out.println(listOfInts[2]+" "+listOfInts[4]);
 		
 		//out of bounds
 		
@@ -52,14 +52,14 @@ public class Unit6_1ArrayCreationAndAccess {
 		//Array of objects
 		
 		//Crate Array
-		TestClass [] listOfObj = new TestClass[3];
+		TestClass [] listOfObj = new TestClass[5];
 		
 		//Create space in memory (All null)
 		
-		
+		listOfInts[4]=22;
 		//Create Object in specific index in array
 		
-		listOfObj[1] = new TestClass(45);
+		listOfObj[1] = new TestClass(27);
 		
 		//we can now use methods on the array object
 		
@@ -74,22 +74,26 @@ public class Unit6_1ArrayCreationAndAccess {
 		
 			double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
 			randomNumbers[1]=67.3;
-		
-//		int x = 0;
-//		while (x<randomNumbers.length) {
-//			System.out.println(randomNumbers[x]);
-//			x++;
-//		}
+		double sum = 0;
+		int x = 0;
+		while (x<randomNumbers.length) {
+			System.out.println(randomNumbers[x]);
+			sum+=randomNumbers[x];
+			x++;
+			
+			
+		}
+		System.out.println(sum/randomNumbers.length);
 
 		
 		
 		String [] stuff = {"Appels","Hats","Hair","More Things","Bob","John"};
 		
-		int y = 0;
-		while (y<stuff.length) {
-			System.out.println(stuff[y]);
-			y++;
-		}
+//		int y = 0;
+//		while (y<stuff.length) {
+//			System.out.println(stuff[y]);
+//			y++;
+//		}
 //	
 	
 		

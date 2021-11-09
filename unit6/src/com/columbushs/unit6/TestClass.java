@@ -4,6 +4,9 @@ public class TestClass {
 	
 		private int value;
 		
+		public TestClass() {
+			value=0;
+		}
 		public TestClass(int startingValue) {
 			value=startingValue;
 		}

@@ -9,7 +9,7 @@ public class Unit6Main {
 		//arrayTests.arrayTesting();
 		
 		Unit6_2ArrayTraversal arrayTraversal = new Unit6_2ArrayTraversal();
-		//arrayTraversal.arrayTrav();
+		arrayTraversal.arrayTrav();
 		//arrayTraversal.arrayQuestions();
 	}
 
