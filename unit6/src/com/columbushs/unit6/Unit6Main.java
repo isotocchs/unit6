@@ -13,9 +13,9 @@ public class Unit6Main {
 		//arrayTraversal.arrayQuestions();
 		
 		Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
-		enhancedFor.enhancedForLoopsInts();
+		//enhancedFor.enhancedForLoopsInts();
 		//enhancedFor.enhancedForLoopsStrings();
-		//enhancedFor.enhancedForLoopsObj();
+		enhancedFor.enhancedForLoopsObj();
 		
 		
 	}
