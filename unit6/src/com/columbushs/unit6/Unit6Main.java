@@ -9,8 +9,15 @@ public class Unit6Main {
 		//arrayTests.arrayTesting();
 		
 		Unit6_2ArrayTraversal arrayTraversal = new Unit6_2ArrayTraversal();
-		arrayTraversal.arrayTrav();
+		//arrayTraversal.arrayTrav();
 		//arrayTraversal.arrayQuestions();
+		
+		Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
+		enhancedFor.enhancedForLoopsInts();
+		//enhancedFor.enhancedForLoopsStrings();
+		//enhancedFor.enhancedForLoopsObj();
+		
+		
 	}
 
 }
