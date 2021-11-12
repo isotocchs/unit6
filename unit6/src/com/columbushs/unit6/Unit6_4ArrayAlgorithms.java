@@ -43,6 +43,7 @@ public class Unit6_4ArrayAlgorithms {
 			
 			if(arrayIn[i]>maxValue) {
 				maxValue = arrayIn[i];
+				maxIndex=i;
 			}	
 		}		
 		return maxIndex;
@@ -53,9 +54,13 @@ public class Unit6_4ArrayAlgorithms {
 	public double getArrayAvg(double [] arrayIn) {
 		
 		double average = 0.0;
+		double sum = 0;
 		
-		//????
+		for (double array:arrayIn) {
+			sum += array;
+		}
 		
+		average = sum/arrayIn.length;
 		return average;
 		
 	}
@@ -65,7 +70,7 @@ public class Unit6_4ArrayAlgorithms {
 	public int[] shiftArrayRight(int [] arrayIn) {
 		
 		int[] shifted = new int[arrayIn.length];
-		int shift = 8;
+		int shift = 4;
 		
 		for (int i=0;i<arrayIn.length;i++) {
 			

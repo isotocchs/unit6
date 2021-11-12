@@ -50,6 +50,7 @@ public class Unit6_3EnhancedForLoop {
 		for (TestClass objInArray:objArray) {
 			
 			//Note how you call the method using the declared variable not the array.
+			objInArray.incrementValue();
 			System.out.println(objInArray.getValue());
 		
 		}
