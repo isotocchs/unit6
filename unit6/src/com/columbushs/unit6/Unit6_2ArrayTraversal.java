@@ -8,13 +8,13 @@ public class Unit6_2ArrayTraversal {
 	private static final DecimalFormat df = new DecimalFormat("0.00");
 	public void arrayTrav() {
 		
-		String [] list = new String[5];
+		double [] list = new double[5];
 		
 		// Careful with <= or >= and length vs index
 		
-//		for (int i = 0; i<list.length; i++) {
-//			list[i] = (int)(Math.random()*10);
-//		}
+		for (int i = 0; i<list.length; i++) {
+			list[i] = (int)(Math.random()*10);
+		}
 		
 		//round to specific decimal place
 		
@@ -24,9 +24,9 @@ public class Unit6_2ArrayTraversal {
 //			y++;
 //		}
 		
-		for (int i = 0; i<list.length; i++) {
-			list[i] = df.format(Math.random()*10);
-		}
+//		for (int i = 0; i<list.length; i++) {
+//			list[i] = df.format(Math.random()*10);
+//		}
 		
 		int y = 0;
 		while (y<list.length) {

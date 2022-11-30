@@ -76,7 +76,6 @@ public class Unit6_4ArrayAlgorithms {
 			
 			shifted[Math.abs((i+shift)%arrayIn.length)] = arrayIn[i];
 		}
-		
 		return shifted;
 	}
 	

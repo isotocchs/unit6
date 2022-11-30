@@ -20,10 +20,10 @@ public class Unit6_3EnhancedForLoop {
 	
 		int [] intArray = {2,67,3234,23,-90,104,3};
 	
-		for (int numbers:intArray) {
+		for (int apples:intArray) {
 			
 			//note how you used the declared variable not the array
-			System.out.println(numbers);
+			System.out.println(apples);
 			
 		}
 		

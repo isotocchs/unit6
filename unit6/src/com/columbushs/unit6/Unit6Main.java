@@ -13,7 +13,7 @@ public class Unit6Main {
 		//arrayTraversal.arrayQuestions();
 		
 		Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
-		//enhancedFor.enhancedForLoopsInts();
+		enhancedFor.enhancedForLoopsInts();
 		//enhancedFor.enhancedForLoopsStrings();
 		//enhancedFor.enhancedForLoopsObj();
 		
@@ -43,7 +43,7 @@ public class Unit6Main {
 		
 		double x = (int) (5.5-2.5);
 		double y = (int) 5.5-2.5;
-		System.out.println(x-y);
+		//System.out.println(x-y);
 	}
 
 }

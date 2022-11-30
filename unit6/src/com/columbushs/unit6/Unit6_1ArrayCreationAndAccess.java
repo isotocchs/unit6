@@ -32,7 +32,7 @@ public class Unit6_1ArrayCreationAndAccess {
 		
 		//out of bounds
 		
-		listOfInts[4]=22;
+		//listOfInts[10]=22;
 		
 		
 		//Printing out the list
@@ -42,7 +42,7 @@ public class Unit6_1ArrayCreationAndAccess {
 		//print out all the values using loop
 		
 //		int i = 0;
-//		while (i<listOfInts.length) {
+//		while (i<= listOfInts.length-1) {
 //			System.out.println(listOfInts[i]);
 //			i++;
 //		}
@@ -75,26 +75,31 @@ public class Unit6_1ArrayCreationAndAccess {
 			double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
 			randomNumbers[1]=67.3;
 		double sum = 0;
-		int x = 0;
-		while (x<randomNumbers.length) {
-			System.out.println(randomNumbers[x]);
-			sum+=randomNumbers[x];
-			x++;
-			
-			
-		}
-		System.out.println(sum/randomNumbers.length);
+		//int x = 0;
+//		while (x<randomNumbers.length) {
+//			System.out.println(randomNumbers[x]);
+//			sum+=randomNumbers[x];
+//			x++;
+//			
+//			
+//		}
+//		for(int x = 0;x<randomNumbers.length;x++) {
+//			System.out.println(randomNumbers[x]);
+//			sum+=randomNumbers[x];
+//		}
+		
+		//System.out.println("Average: "+(sum/randomNumbers.length));
 
 		
 		
 		String [] stuff = {"Appels","Hats","Hair","More Things","Bob","John"};
 		
-//		int y = 0;
-//		while (y<stuff.length) {
-//			System.out.println(stuff[y]);
-//			y++;
-//		}
-//	
+		int y = 0;
+		while (y<stuff.length) {
+			System.out.print(stuff[y]+" ");
+			y++;
+		}
+	
 	
 		
 		
