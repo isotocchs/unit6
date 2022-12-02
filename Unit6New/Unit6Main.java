@@ -2,7 +2,8 @@ public class Unit6Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("---------------");
+
 		Unit6_1ArrayCreationAndAccess arrayTests = new Unit6_1ArrayCreationAndAccess();
 		arrayTests.arrayTesting();
 		
@@ -41,7 +42,13 @@ public class Unit6Main {
 		
 		double x = (int) (5.5-2.5);
 		double y = (int) 5.5-2.5;
-		System.out.println(x-y);
+		// System.out.println(x-y);
+
+
+
+
+		System.out.println("---------------");
+
 	}
 
 }
