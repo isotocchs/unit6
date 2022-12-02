@@ -29,7 +29,7 @@ public class Unit6_2ArrayTraversal {
 		
 		int y = 0;
 		while (y<list.length) {
-			System.out.println(list[y]);
+			// System.out.println(list[y]);
 			y++;
 		}
 		
@@ -39,14 +39,44 @@ public class Unit6_2ArrayTraversal {
 		
 		
 		//What is printed out here?
-//		String [] list = {"Apples","Oranges","Bananas"};
-//		for (int i = 0;i<list.length;i++) {
-//			System.out.print(list[i].length()+"_");
-//		}
+		String [] list = {"Apples","Oranges","Bananas"};
+		for (int i = 0;i<list.length;i++) {
+			// System.out.print(list[i].substring(0,1)+"_");
+		}
+
+
+
 		
 		
 		int [] intArray = {1,2,3,4,5};
 		//Reverse the numbers in the array
+		int [] newArray = new int[intArray.length];
+		
+		int i = 0;
+		for (int k=intArray.length-1;k>=0;k--){
+			newArray[i]=intArray[k];
+			i++;
+		}
+
+		for(int f = 0;f<intArray.length;f++){
+			newArray[f]=intArray[intArray.length-1-f];
+		}
+
+
+		for (int j=0;j<newArray.length;j++){
+			System.out.println(newArray[j]);
+		}
+
+
+
+
+
+
+
+
+
+
+
 		
 		
 //		int [] reverseArray = new int[intArray.length];

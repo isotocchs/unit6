@@ -19,10 +19,25 @@ public class Unit6_1ArrayCreationAndAccess {
 		//if double initialized to 0.0
 		//if boolean initialized to false
 		//if String or other class initialized to null	
+
 		
 		int [] listOfInts  = new int[5];
+		double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
+
 
 		listOfInts[1]=22;
+
+		// System.out.println(listOfInts);
+
+		int i = 0;
+		while (i<randomNumbers.length) {
+			// System.out.println(randomNumbers[i]);
+			i++;
+		}
+
+		for (int k=0;k<randomNumbers.length;k++){
+			// System.out.println(randomNumbers[k]);
+		}
 
 		// System.out.println(listOfInts.length);
 		// System.out.println(listOfInts[2]);
@@ -46,10 +61,10 @@ public class Unit6_1ArrayCreationAndAccess {
 		
 		//print out all the values using loop
 		
-		int i = 0;
-		while (i<listOfInts.length) {
-			// System.out.println(listOfInts[i]);
-			i++;
+		
+
+		for (int j=0;j<listOfInts.length;j++){
+			// System.out.println(listOfInts[j]);
 		}
 		
 		
@@ -60,21 +75,25 @@ public class Unit6_1ArrayCreationAndAccess {
 		
 		
 		//Create space in memory (All null)
-		
-		// listOfObj[4]=22;
-		// TestClass objtest = new TestClass();
-		//Create Object in specific index in array
-
 		String [] listOfStr = {"Kevin","Todd","Tim","Anthony", "Carlos", "Daniel", "Jeremiah"};
-		
+		int [] height = {4,5,6,7,2,1,7};
+		int [] age = {43,52,63,74,22,13,74};
+
+
 		TestClass [] listOfObj = new TestClass[listOfStr.length];
 
+	// System.out.println(listOfObj[1].getName());
+
+		
 		int k = 0;
 		while (k<listOfStr.length) {
-			listOfObj[k] = new TestClass(listOfStr[k]);
+			listOfObj[k] = new TestClass(listOfStr[k],age[k],height[k]);
+			// System.out.println("Name: "+listOfObj[k].getName()+" Age: "+listOfObj[k].getAge());
+
 			k++;
 		}
-		System.out.println(listOfStr[(int)(Math.random()*listOfStr.length)]);
+
+		// System.out.println(listOfStr[(int)(Math.random()*listOfStr.length)]);
 
 		//we can now use methods on the array object
 		
@@ -86,25 +105,26 @@ public class Unit6_1ArrayCreationAndAccess {
 
 		int y = 0;
 		while (y<listOfObj.length) {
-			System.out.println(listOfObj[y].getName());
+			// System.out.println(listOfObj[y].getName());
 			y++;
 		}
 		
 		
 		//If you know the values beforehand you can initialize with info
 		
-			double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
+		// double [] randomNumbers = {12.5, 34.6, 1, 5, 89.3,45,32.6,67.5};
+
 			randomNumbers[1]=67.3;
-			double sum = 0;
+			double thingum = 0;
 			int x = 0;
 		while (x<randomNumbers.length) {
 			// System.out.println(randomNumbers[x]);
-			sum+=randomNumbers[x];
+			thingum+=randomNumbers[x];
 			x++;
-			
-			
 		}
-		// System.out.println(sum/randomNumbers.length);
+		System.out.println(thingum);
+
+		System.out.println(thingum/randomNumbers.length);
 
 		
 		

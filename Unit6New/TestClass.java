@@ -3,6 +3,8 @@ public class TestClass {
 	
 		private int value;
         String Name;
+		int age;
+		int height;
 		
 		public TestClass() {
 			value=0;
@@ -11,8 +13,10 @@ public class TestClass {
 			value=startingValue;
 		}
 
-        public TestClass(String username) {
+        public TestClass(String username, int a, int h) {
 			Name=username;
+			age = a;
+			height = h;
 		}
 		
 		public void incrementValue () {
@@ -21,6 +25,9 @@ public class TestClass {
 		
 		public int getValue() {
 			return value;
+		}
+		public int getAge() {
+			return age;
 		}
         public String getName() {
 			return Name;

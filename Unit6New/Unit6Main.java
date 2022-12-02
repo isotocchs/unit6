@@ -5,11 +5,11 @@ public class Unit6Main {
 		System.out.println("---------------");
 
 		Unit6_1ArrayCreationAndAccess arrayTests = new Unit6_1ArrayCreationAndAccess();
-		arrayTests.arrayTesting();
+		// arrayTests.arrayTesting();
 		
 		Unit6_2ArrayTraversal arrayTraversal = new Unit6_2ArrayTraversal();
 		//arrayTraversal.arrayTrav();
-		//arrayTraversal.arrayQuestions();
+		arrayTraversal.arrayQuestions();
 		
 		// Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
 		//enhancedFor.enhancedForLoopsInts();
