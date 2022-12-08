@@ -18,21 +18,24 @@ public class Unit6Main {
 		
 		
 		Unit6_4ArrayAlgorithms arrayAlg = new Unit6_4ArrayAlgorithms();
-		double [] values = {12.5,67.2,67.3,-45,32,12,19,5};
+		double [] values = {1200.5,67.2,67.3,-45,320,12,19,5};
 		// double max = arrayAlg.findMax(values);
 		// System.out.println(max);
-		System.out.println(arrayAlg.findMin(values));
-		//System.out.println(arrayAlg.findMaxIndex(values));
+		// System.out.println(arrayAlg.findMin(values));
+		// System.out.println(arrayAlg.findMaxIndex(values));
+				// System.out.println(arrayAlg.getArrayAvg(values));
+
 		
-//		int [] arrayToShiftRight = {1,2,3,4,5,6,7};
+		int [] arrayToShiftRight = {1,2,3,4,5,6,7};
 //		
-//		int [] shiftedArray1 = arrayAlg.shiftArrayRight(arrayToShiftRight);
+		int [] shiftedArray1 = arrayAlg.shiftArrayRight(arrayToShiftRight,1);
 //		
-//		for(int num:shiftedArray1) {
-//			System.out.println(num+" ");
-//		}
+		for(int num:shiftedArray1) {
+			System.out.print(num+" ");
+		}
 		
-		
+		System.out.println();
+
 //		String [] arrayToShiftLeft = {"Apple","Orange","Banana","Grape"};
 //		String [] shiftedArray2 = arrayAlg.shiftArrayLeft(arrayToShiftLeft);
 //		

@@ -35,7 +35,7 @@ public class Unit6_4ArrayAlgorithms {
 	
 	//Find index of max value ???
 	//What do I need to add?
-	
+	// double [] values = {1200.5,67.2,67.3,45,320,12,19,5};
 	public double findMaxIndex(double [] arrayIn) {
 		
 		double maxValue = arrayIn[0];
@@ -52,7 +52,7 @@ public class Unit6_4ArrayAlgorithms {
 	// Calculate Average
 	
 	public double getArrayAvg(double [] arrayIn) {
-		
+		// double [] values = {1200.5,67.2,67.3,45,320,12,19,5};
 		double average = 0.0;
 		double sum = 0;
 		
@@ -67,10 +67,11 @@ public class Unit6_4ArrayAlgorithms {
 	
 	
 	//Shifting Array contents
-	public int[] shiftArrayRight(int [] arrayIn) {
+	// int [] arrayToShiftRight = {1,2,3,4,5,6,7};
+
+	public int[] shiftArrayRight(int [] arrayIn, int shift) {
 		
 		int[] shifted = new int[arrayIn.length];
-		int shift = 4;
 		
 		for (int i=0;i<arrayIn.length;i++) {
 			
@@ -78,6 +79,14 @@ public class Unit6_4ArrayAlgorithms {
 		}
 		return shifted;
 	}
+
+
+
+
+
+
+
+	// i+arrayIn.length-shift
 	
 	public String[] shiftArrayLeft(String [] arrayIn) {
 		
