@@ -22,9 +22,10 @@ public class Unit6_3EnhancedForLoop {
 		for (int apples:intArray) {
 			
 			//note how you used the declared variable not the array
-			System.out.println(apples);
+			System.out.println(apples+apples);
 			
 		}
+		
 		
 		System.out.println("Done with loop");
 		
@@ -35,7 +36,7 @@ public class Unit6_3EnhancedForLoop {
 		
 		for (String stringsInArray:stringArray) {
 			
-			System.out.println(stringsInArray);
+			System.out.println(stringsInArray.substring(2));
 		
 		}
 		System.out.println("Done with loop");

@@ -5,19 +5,22 @@ public class Unit6_4ArrayAlgorithms {
 	
 	public double findMax(double [] arrayIn) {
 		
-		double maxValue = arrayIn[0];
 		
+		
+		double minValue = arrayIn[0];
 		for (int i=1;i<arrayIn.length;i++) {
+ 
+
 			
-			if(arrayIn[i]>maxValue) {
-				maxValue = arrayIn[i];
+			if(arrayIn[i]<minValue) {
+				minValue = arrayIn[i];
 			}	
 		}		
-		return maxValue;
+		return minValue;
 	}
 	
 	public double findMin(double [] arrayIn) {
-	
+	// double [] values = {12.5,67.2,67.3,45,32,12,19,5};
 		double minValue = Double.MAX_VALUE;
 		
 		for (double currentValue:arrayIn) {
@@ -33,19 +36,17 @@ public class Unit6_4ArrayAlgorithms {
 	//Find index of max value ???
 	//What do I need to add?
 	
-	public int findMaxIndex(double [] arrayIn) {
+	public double findMaxIndex(double [] arrayIn) {
 		
-		int maxIndex = 0;
 		double maxValue = arrayIn[0];
 		
 		for (int i=1;i<arrayIn.length;i++) {
 			
 			if(arrayIn[i]>maxValue) {
 				maxValue = arrayIn[i];
-				maxIndex=i;
 			}	
 		}		
-		return maxIndex;
+		return maxValue;
 	}
 	
 	// Calculate Average

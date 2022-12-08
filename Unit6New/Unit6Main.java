@@ -9,19 +9,19 @@ public class Unit6Main {
 		
 		Unit6_2ArrayTraversal arrayTraversal = new Unit6_2ArrayTraversal();
 		//arrayTraversal.arrayTrav();
-		arrayTraversal.arrayQuestions();
+		// arrayTraversal.arrayQuestions();
 		
-		// Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
-		//enhancedFor.enhancedForLoopsInts();
-		//enhancedFor.enhancedForLoopsStrings();
-		//enhancedFor.enhancedForLoopsObj();
+		Unit6_3EnhancedForLoop enhancedFor = new Unit6_3EnhancedForLoop();
+		// enhancedFor.enhancedForLoopsInts();
+		// enhancedFor.enhancedForLoopsStrings();
+		// enhancedFor.enhancedForLoopsObj();
 		
 		
-		// Unit6_4ArrayAlgorithms arrayAlg = new Unit6_4ArrayAlgorithms();
-		// double [] values = {12.5,67.2,67.3,45,32,19};
+		Unit6_4ArrayAlgorithms arrayAlg = new Unit6_4ArrayAlgorithms();
+		double [] values = {12.5,67.2,67.3,-45,32,12,19,5};
 		// double max = arrayAlg.findMax(values);
-		//System.out.println(max);
-		//System.out.println(arrayAlg.findMin(values));
+		// System.out.println(max);
+		System.out.println(arrayAlg.findMin(values));
 		//System.out.println(arrayAlg.findMaxIndex(values));
 		
 //		int [] arrayToShiftRight = {1,2,3,4,5,6,7};
